@@ -1,4 +1,4 @@
-import { Key, ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../features/cartSlice';
 
