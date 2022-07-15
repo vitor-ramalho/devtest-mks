@@ -3,16 +3,18 @@
 
 ## Projeto de teste para vaga de desenvolvedor frontend MKS Sistemas;
 
-Tabela de conteúdos
 =================
 <!--ts-->
-   * [Tecnologias](#tecnologias)
-      *[Typescript](#typescript)
-      *[ReactJS](#reactjs)
-      *[Redux](#redux)
-      *[Toastify](#toastify)
-      *[Styled-Components](#styled-components)
-      *[Vite](#vite)
+Tecnologias
+
+<ul>
+    <li>Typescript</li>
+    <li>ReactJS</li>
+    <li>Redux</li>
+    <li>Toastify</li>
+    <li>Styled-Components</li>
+    <li>Vite</li>
+<ul>
 <!--te-->
 
 # Para rodar a aplicação:
