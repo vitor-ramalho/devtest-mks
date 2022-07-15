@@ -10,13 +10,13 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <>
+    <React.Fragment>
       <ToastContainer />
       <Navbar />
       <ProductList/>
       <ShoppingCart/>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }
 
