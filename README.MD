@@ -7,12 +7,12 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Tecnologias](#tecnologias)
-    *[Typescript](#typescript)
-    *[ReactJS](#reactjs)
-    *[Redux](#redux)
-    *[Toastify](#toastify)
-    *[Styled-Components](#styled-components)
-    *[Vite](#vite)
+      *[Typescript](#typescript)
+      *[ReactJS](#reactjs)
+      *[Redux](#redux)
+      *[Toastify](#toastify)
+      *[Styled-Components](#styled-components)
+      *[Vite](#vite)
 <!--te-->
 
 # Para rodar a aplicação:
