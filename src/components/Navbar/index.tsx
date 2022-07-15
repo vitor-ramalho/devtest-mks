@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
-import { Nav, CartButton, NavLogo, Logobrand, CartLogo, } from './Navbar';
-import CartIcon from '../../assets/CartLogo.svg'
+import { Nav, CartButton, NavLogo, Logobrand, CartLogo, CartQuantity } from './Navbar';
+import CartIcon from '../../assets/CartLogo.svg';
+import { useSelector } from 'react-redux';
+
 
 export const Navbar = () => {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const cart = useSelector((state:any) => state.cart);
 
-  function closeShoppingMenu(){
-    if(open === false){
+  function toggleShoppingMenu(){
+    if(isOpen === false){
       let menu = document.getElementById("menu");
       menu?.classList.add('menu');
 
-      setOpen(true);
-    } else if(open === true){
+      setIsOpen(true);
+    } else if(isOpen === true){
       let menu = document.getElementById("menu");
       menu?.classList.remove('menu');
-      setOpen(false);
+      setIsOpen(false);
     }
   }
   return (
@@ -26,8 +29,9 @@ export const Navbar = () => {
         </Logobrand>
       </NavLogo>
 
-      <CartButton onClick={() => closeShoppingMenu()}>
+      <CartButton onClick={() => toggleShoppingMenu()}>
         <CartLogo src={CartIcon} />
+        <CartQuantity>{cart.cartTotalQuantity}</CartQuantity>
       </CartButton>
     </Nav>
   )

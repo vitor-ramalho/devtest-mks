@@ -18,6 +18,11 @@ export const CartButton = styled.button`
   height: 45px;
   border-radius: 8px;
   border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
 `;
 
 export const NavLogo = styled.h1`
@@ -40,5 +45,8 @@ export const Logobrand = styled.p`
 export const CartLogo = styled.img`
     width: 19px;
     height: 18px;
-    margin: auto;
 `
+
+export const CartQuantity = styled.p`
+  font-weight: bold;
+`;

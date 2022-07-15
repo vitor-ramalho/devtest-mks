@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { ProductList } from './components/ProductList';
 import {ToastContainer} from 'react-toastify';
 import ShoppingCart from './components/ShoppingCart';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <ToastContainer />
       <Navbar />
       <ProductList/>
-      <ShoppingCart />
+      <ShoppingCart/>
+      <Footer />
     </>
   )
 }

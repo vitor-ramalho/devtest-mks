@@ -6,6 +6,9 @@ export const ShoppingCartContainer = styled.aside`
   right: 0;
   position: absolute;
   float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: #0F52BA;
   padding: 36px 47px;
   top: 0;
@@ -107,6 +110,7 @@ export const ProductCount = styled.div`
   border-radius: 4px;
   display: flex;
   align-items: center;
+  position: relative;
 `
 
 export const TotalPriceContainer = styled.div`
@@ -124,3 +128,27 @@ export const TotalPrice = styled.h1`
   line-height: 15px;
   color: #FFFFFF;
 `
+
+export const Qtd = styled.span`
+  position: absolute;
+  top: -8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5px;
+  line-height: 6px;
+  color: #000000;
+`
+
+export const EndBuy = styled.button`
+  width: 486px;
+  height: 97px;
+  background: #000000;
+  border: none;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 15px;
+  color: white;
+  float: right;
+  margin-top: -120px;
+`;
